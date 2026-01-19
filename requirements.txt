@@ -1,0 +1,45 @@
+# Core LLMs
+openai==1.102.0
+google-generativeai>=0.7.0
+
+# LangChain
+langchain==0.3.27
+langchain-community==0.3.29
+langchain-core==0.3.75
+langchain-openai==0.3.32
+langchain-google-genai>=2.0.0
+langchain-mongodb==0.7.0
+langgraph==0.6.6
+langchain-mcp-adapters==0.0.7
+
+# AWS
+boto3>=1.42.0,<2.0.0
+
+# Environment
+python-dotenv==1.1.1
+
+# Database
+pymongo==4.6.3
+pydantic==2.11.7
+
+# Docs & OCR
+python-docx==1.2.0
+python-pptx==1.0.2
+pdf2image==1.17.0
+pytesseract==0.3.13
+pymupdf4llm==0.0.27
+
+# Sheets
+gspread==6.1.2
+
+# Security
+PyCryptodome>=3.15.0
+
+# Optional (Vision support)
+Pillow>=10.0.0
+
+pymupdf
+streamlit
+pinecone-client
+tiktoken
+pinecone
