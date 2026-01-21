@@ -31,7 +31,7 @@ question = st.text_input("Ask a question based on document")
 #     st.write(answer)
 
 if question and document_text:
-    with st.spinner("Thinking..."):
+    with st.spinner("Thinking...."):
         answer = simple_rag(question, document_text)
         st.subheader("Answer")
         st.write(answer)
