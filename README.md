@@ -264,4 +264,4 @@ OCR for scanned PDFs
 
 Multilingual embeddings
 
-source .venv/bin/activate
+venv- source .venv/bin/activate
